@@ -1,22 +1,16 @@
 package com.example.common_libs.model;
 
-
 import lombok.*;
-
-import java.util.List;
-
 
 @Getter
 @Setter
 @Data
-@AllArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor
 @NoArgsConstructor
-public class Person {
+public class Student {
 
     private String name;
 
     private int age;
-
-    private List<Phone> phones;
 
 }
